@@ -31,35 +31,37 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="lblElerhetoseg" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="BtMegvesz" min="-2" pref="107" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="pnlAlap" max="32767" attributes="0"/>
-                  <Component id="pnlMeret" max="32767" attributes="0"/>
-              </Group>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlTeszta" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlFeltet" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblElerhetoseg" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="BtMegvesz" min="-2" pref="107" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-                      <Component id="lblDb" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="pnlAlap" min="-2" max="-2" attributes="0"/>
+                          <Component id="pnlMeret" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="cmdDb" min="-2" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lblDb" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cmdDb" min="-2" pref="48" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="pnlTeszta" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pnlFeltet" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlKep" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="pnlKep" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,34 +70,25 @@
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Component id="pnlKep" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Component id="pnlTeszta" alignment="0" max="32767" attributes="0"/>
                           <Component id="pnlMeret" alignment="0" max="32767" attributes="0"/>
                           <Component id="pnlFeltet" max="32767" attributes="0"/>
                       </Group>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace pref="62" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="cmdDb" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="lblDb" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cmdDb" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblDb" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="pnlAlap" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="pnlAlap" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" attributes="0">
-                      <Component id="pnlKep" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
               </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="BtMegvesz" min="-2" pref="46" max="-2" attributes="0"/>
                   <Component id="lblElerhetoseg" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -123,9 +116,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="rdbFelso1" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbKozepso1" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbAlso1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbCm25" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbCm32" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbCm50" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="61" max="32767" attributes="0"/>
               </Group>
@@ -135,18 +128,18 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbFelso1" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbCm25" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="rdbKozepso1" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbCm32" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbAlso1" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbCm50" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="rdbFelso1">
+        <Component class="javax.swing.JRadioButton" name="rdbCm25">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -157,7 +150,7 @@
             <Property name="text" type="java.lang.String" value="25 cm"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rdbKozepso1">
+        <Component class="javax.swing.JRadioButton" name="rdbCm32">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -168,7 +161,7 @@
             <Property name="text" type="java.lang.String" value="32 cm"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rdbAlso1">
+        <Component class="javax.swing.JRadioButton" name="rdbCm50">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup1"/>
@@ -198,9 +191,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="rdbFelso2" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbKozepso2" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbAlso2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbOlasz" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbHagyomanyos" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbTeljes" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -210,18 +203,18 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="rdbFelso2" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbOlasz" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbKozepso2" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbHagyomanyos" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbAlso2" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="rdbTeljes" min="-2" pref="21" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="rdbFelso2">
+        <Component class="javax.swing.JRadioButton" name="rdbOlasz">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup2"/>
@@ -232,7 +225,7 @@
             <Property name="text" type="java.lang.String" value="olasz"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rdbKozepso2">
+        <Component class="javax.swing.JRadioButton" name="rdbHagyomanyos">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup2"/>
@@ -243,7 +236,7 @@
             <Property name="text" type="java.lang.String" value="hagyom&#xe1;nyos"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rdbAlso2">
+        <Component class="javax.swing.JRadioButton" name="rdbTeljes">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup2"/>
@@ -273,9 +266,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="rdbFelso3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbKozepso3" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbAlso3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbHagyma" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbSonka" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbAnanasz" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
@@ -285,18 +278,18 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="rdbFelso3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbHagyma" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbKozepso3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbSonka" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbAlso3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbAnanasz" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="rdbFelso3">
+        <Component class="javax.swing.JRadioButton" name="rdbHagyma">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe Script" size="10" style="0"/>
@@ -304,7 +297,7 @@
             <Property name="text" type="java.lang.String" value="hagyma"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rdbKozepso3">
+        <Component class="javax.swing.JRadioButton" name="rdbSonka">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe Script" size="10" style="0"/>
@@ -312,7 +305,7 @@
             <Property name="text" type="java.lang.String" value="sonka"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rdbAlso3">
+        <Component class="javax.swing.JRadioButton" name="rdbAnanasz">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe Script" size="10" style="0"/>
@@ -339,10 +332,10 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="rbdAlso4" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="rdbFelso4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rbdTejfol" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="rdbParadicsom" alignment="0" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="21" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -350,16 +343,16 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rdbFelso4" min="-2" max="-2" attributes="0"/>
+                  <Component id="rdbParadicsom" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="rbdAlso4" min="-2" max="-2" attributes="0"/>
+                  <Component id="rbdTejfol" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="33" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JRadioButton" name="rdbFelso4">
+        <Component class="javax.swing.JRadioButton" name="rdbParadicsom">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup3"/>
@@ -370,7 +363,7 @@
             <Property name="text" type="java.lang.String" value="paradicsomos"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="rbdAlso4">
+        <Component class="javax.swing.JRadioButton" name="rbdTejfol">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="buttonGroup3"/>
@@ -428,6 +421,14 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtMegveszActionPerformed"/>
       </Events>
     </Component>
+    <Component class="javax.swing.JLabel" name="lblDb">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe Script" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="db:"/>
+      </Properties>
+    </Component>
     <Container class="javax.swing.JPanel" name="pnlKep">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -437,29 +438,37 @@
             </TitledBorder>
           </Border>
         </Property>
-        <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="176" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblKep" pref="253" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="213" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="lblKep" pref="203" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
       </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblKep">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\DobszayDorkaM&#xe1;ria(SZ\Documents\Dorka_grid\Kepek\let&#xf6;lt&#xe9;s.jfif"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="lblDb">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe Script" size="12" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="db:"/>
-      </Properties>
-    </Component>
   </SubComponents>
 </Form>

@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package pizza;
 
 import java.awt.Desktop;
@@ -23,42 +19,43 @@ public class Pizza extends javax.swing.JFrame {
         buttonGroup2 = new javax.swing.ButtonGroup();
         buttonGroup3 = new javax.swing.ButtonGroup();
         pnlMeret = new javax.swing.JPanel();
-        rdbFelso1 = new javax.swing.JRadioButton();
-        rdbKozepso1 = new javax.swing.JRadioButton();
-        rdbAlso1 = new javax.swing.JRadioButton();
+        rdbCm25 = new javax.swing.JRadioButton();
+        rdbCm32 = new javax.swing.JRadioButton();
+        rdbCm50 = new javax.swing.JRadioButton();
         pnlTeszta = new javax.swing.JPanel();
-        rdbFelso2 = new javax.swing.JRadioButton();
-        rdbKozepso2 = new javax.swing.JRadioButton();
-        rdbAlso2 = new javax.swing.JRadioButton();
+        rdbOlasz = new javax.swing.JRadioButton();
+        rdbHagyomanyos = new javax.swing.JRadioButton();
+        rdbTeljes = new javax.swing.JRadioButton();
         pnlFeltet = new javax.swing.JPanel();
-        rdbFelso3 = new javax.swing.JRadioButton();
-        rdbKozepso3 = new javax.swing.JRadioButton();
-        rdbAlso3 = new javax.swing.JRadioButton();
+        rdbHagyma = new javax.swing.JRadioButton();
+        rdbSonka = new javax.swing.JRadioButton();
+        rdbAnanasz = new javax.swing.JRadioButton();
         pnlAlap = new javax.swing.JPanel();
-        rdbFelso4 = new javax.swing.JRadioButton();
-        rbdAlso4 = new javax.swing.JRadioButton();
+        rdbParadicsom = new javax.swing.JRadioButton();
+        rbdTejfol = new javax.swing.JRadioButton();
         cmdDb = new javax.swing.JComboBox<>();
         lblElerhetoseg = new javax.swing.JLabel();
         BtMegvesz = new javax.swing.JButton();
-        pnlKep = new javax.swing.JPanel();
         lblDb = new javax.swing.JLabel();
+        pnlKep = new javax.swing.JPanel();
+        lblKep = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         pnlMeret.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Méret", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe Script", 2, 12))); // NOI18N
         pnlMeret.setToolTipText("");
 
-        buttonGroup1.add(rdbFelso1);
-        rdbFelso1.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbFelso1.setText("25 cm");
+        buttonGroup1.add(rdbCm25);
+        rdbCm25.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbCm25.setText("25 cm");
 
-        buttonGroup1.add(rdbKozepso1);
-        rdbKozepso1.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbKozepso1.setText("32 cm");
+        buttonGroup1.add(rdbCm32);
+        rdbCm32.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbCm32.setText("32 cm");
 
-        buttonGroup1.add(rdbAlso1);
-        rdbAlso1.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbAlso1.setText("50 cm");
+        buttonGroup1.add(rdbCm50);
+        rdbCm50.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbCm50.setText("50 cm");
 
         javax.swing.GroupLayout pnlMeretLayout = new javax.swing.GroupLayout(pnlMeret);
         pnlMeret.setLayout(pnlMeretLayout);
@@ -67,36 +64,36 @@ public class Pizza extends javax.swing.JFrame {
             .addGroup(pnlMeretLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlMeretLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(rdbFelso1)
-                    .addComponent(rdbKozepso1)
-                    .addComponent(rdbAlso1))
+                    .addComponent(rdbCm25)
+                    .addComponent(rdbCm32)
+                    .addComponent(rdbCm50))
                 .addContainerGap(61, Short.MAX_VALUE))
         );
         pnlMeretLayout.setVerticalGroup(
             pnlMeretLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlMeretLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(rdbFelso1)
+                .addComponent(rdbCm25)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(rdbKozepso1)
+                .addComponent(rdbCm32)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rdbAlso1)
+                .addComponent(rdbCm50)
                 .addGap(12, 12, 12))
         );
 
         pnlTeszta.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tészta", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe Script", 2, 12))); // NOI18N
 
-        buttonGroup2.add(rdbFelso2);
-        rdbFelso2.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbFelso2.setText("olasz");
+        buttonGroup2.add(rdbOlasz);
+        rdbOlasz.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbOlasz.setText("olasz");
 
-        buttonGroup2.add(rdbKozepso2);
-        rdbKozepso2.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbKozepso2.setText("hagyományos");
+        buttonGroup2.add(rdbHagyomanyos);
+        rdbHagyomanyos.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbHagyomanyos.setText("hagyományos");
 
-        buttonGroup2.add(rdbAlso2);
-        rdbAlso2.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbAlso2.setText("teljes kiörlésű");
+        buttonGroup2.add(rdbTeljes);
+        rdbTeljes.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbTeljes.setText("teljes kiörlésű");
 
         javax.swing.GroupLayout pnlTesztaLayout = new javax.swing.GroupLayout(pnlTeszta);
         pnlTeszta.setLayout(pnlTesztaLayout);
@@ -105,33 +102,33 @@ public class Pizza extends javax.swing.JFrame {
             .addGroup(pnlTesztaLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlTesztaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(rdbFelso2)
-                    .addComponent(rdbKozepso2)
-                    .addComponent(rdbAlso2))
+                    .addComponent(rdbOlasz)
+                    .addComponent(rdbHagyomanyos)
+                    .addComponent(rdbTeljes))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlTesztaLayout.setVerticalGroup(
             pnlTesztaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlTesztaLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(rdbFelso2)
+                .addComponent(rdbOlasz)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rdbKozepso2)
+                .addComponent(rdbHagyomanyos)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rdbAlso2, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(rdbTeljes, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(12, 12, 12))
         );
 
         pnlFeltet.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Feltét", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe Script", 2, 12))); // NOI18N
 
-        rdbFelso3.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbFelso3.setText("hagyma");
+        rdbHagyma.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbHagyma.setText("hagyma");
 
-        rdbKozepso3.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbKozepso3.setText("sonka");
+        rdbSonka.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbSonka.setText("sonka");
 
-        rdbAlso3.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbAlso3.setText("ananász");
+        rdbAnanasz.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbAnanasz.setText("ananász");
 
         javax.swing.GroupLayout pnlFeltetLayout = new javax.swing.GroupLayout(pnlFeltet);
         pnlFeltet.setLayout(pnlFeltetLayout);
@@ -140,32 +137,32 @@ public class Pizza extends javax.swing.JFrame {
             .addGroup(pnlFeltetLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlFeltetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(rdbFelso3)
-                    .addComponent(rdbKozepso3)
-                    .addComponent(rdbAlso3))
+                    .addComponent(rdbHagyma)
+                    .addComponent(rdbSonka)
+                    .addComponent(rdbAnanasz))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlFeltetLayout.setVerticalGroup(
             pnlFeltetLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlFeltetLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(rdbFelso3)
+                .addComponent(rdbHagyma)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rdbKozepso3)
+                .addComponent(rdbSonka)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rdbAlso3)
+                .addComponent(rdbAnanasz)
                 .addGap(12, 12, 12))
         );
 
         pnlAlap.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Alap", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe Script", 2, 12))); // NOI18N
 
-        buttonGroup3.add(rdbFelso4);
-        rdbFelso4.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rdbFelso4.setText("paradicsomos");
+        buttonGroup3.add(rdbParadicsom);
+        rdbParadicsom.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rdbParadicsom.setText("paradicsomos");
 
-        buttonGroup3.add(rbdAlso4);
-        rbdAlso4.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
-        rbdAlso4.setText("tejfölös");
+        buttonGroup3.add(rbdTejfol);
+        rbdTejfol.setFont(new java.awt.Font("Segoe Script", 0, 10)); // NOI18N
+        rbdTejfol.setText("tejfölös");
 
         javax.swing.GroupLayout pnlAlapLayout = new javax.swing.GroupLayout(pnlAlap);
         pnlAlap.setLayout(pnlAlapLayout);
@@ -174,17 +171,17 @@ public class Pizza extends javax.swing.JFrame {
             .addGroup(pnlAlapLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(pnlAlapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(rbdAlso4)
-                    .addComponent(rdbFelso4))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(rbdTejfol)
+                    .addComponent(rdbParadicsom))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
         pnlAlapLayout.setVerticalGroup(
             pnlAlapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnlAlapLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(rdbFelso4)
+                .addComponent(rdbParadicsom)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(rbdAlso4)
+                .addComponent(rbdTejfol)
                 .addContainerGap(33, Short.MAX_VALUE))
         );
 
@@ -218,22 +215,29 @@ public class Pizza extends javax.swing.JFrame {
             }
         });
 
+        lblDb.setFont(new java.awt.Font("Segoe Script", 0, 12)); // NOI18N
+        lblDb.setText("db:");
+
         pnlKep.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Kép", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe Script", 0, 12))); // NOI18N
-        pnlKep.setToolTipText("");
+
+        lblKep.setIcon(new javax.swing.ImageIcon("C:\\Users\\DobszayDorkaMária(SZ\\Documents\\Dorka_grid\\Kepek\\letöltés.jfif")); // NOI18N
 
         javax.swing.GroupLayout pnlKepLayout = new javax.swing.GroupLayout(pnlKep);
         pnlKep.setLayout(pnlKepLayout);
         pnlKepLayout.setHorizontalGroup(
             pnlKepLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 176, Short.MAX_VALUE)
+            .addGroup(pnlKepLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblKep, javax.swing.GroupLayout.PREFERRED_SIZE, 253, Short.MAX_VALUE)
+                .addContainerGap())
         );
         pnlKepLayout.setVerticalGroup(
             pnlKepLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 213, Short.MAX_VALUE)
+            .addGroup(pnlKepLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblKep, javax.swing.GroupLayout.DEFAULT_SIZE, 203, Short.MAX_VALUE)
+                .addContainerGap())
         );
-
-        lblDb.setFont(new java.awt.Font("Segoe Script", 0, 12)); // NOI18N
-        lblDb.setText("db:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -241,54 +245,48 @@ public class Pizza extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblElerhetoseg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(BtMegvesz, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(pnlAlap, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnlMeret, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblElerhetoseg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(BtMegvesz, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(pnlAlap, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(pnlMeret, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pnlTeszta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblDb)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cmdDb, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(pnlTeszta, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(pnlFeltet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(pnlFeltet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(61, 61, 61)
-                        .addComponent(lblDb)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cmdDb, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(pnlKep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                        .addComponent(pnlKep, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pnlKep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addComponent(pnlTeszta, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(pnlMeret, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(pnlFeltet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(cmdDb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(lblDb))
-                                .addGap(60, 60, 60))
-                            .addGroup(layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(pnlAlap, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(pnlKep, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(cmdDb, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblDb))
+                            .addComponent(pnlAlap, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(BtMegvesz, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblElerhetoseg, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
@@ -330,8 +328,6 @@ public class Pizza extends javax.swing.JFrame {
     private void cmdDbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdDbActionPerformed
         String mennyiseg = (String) cmdDb.getSelectedItem();
         String uzenet = "kiválasztott mennyiség = " + mennyiseg;
-        int index = cmdDb.getSelectedIndex();
-        uzenet += "\nindexe: [ " + index + " ]";
         JOptionPane.showMessageDialog(rootPane, uzenet);
     }//GEN-LAST:event_cmdDbActionPerformed
 
@@ -378,21 +374,22 @@ public class Pizza extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> cmdDb;
     private javax.swing.JLabel lblDb;
     private javax.swing.JLabel lblElerhetoseg;
+    private javax.swing.JLabel lblKep;
     private javax.swing.JPanel pnlAlap;
     private javax.swing.JPanel pnlFeltet;
     private javax.swing.JPanel pnlKep;
     private javax.swing.JPanel pnlMeret;
     private javax.swing.JPanel pnlTeszta;
-    private javax.swing.JRadioButton rbdAlso4;
-    private javax.swing.JRadioButton rdbAlso1;
-    private javax.swing.JRadioButton rdbAlso2;
-    private javax.swing.JRadioButton rdbAlso3;
-    private javax.swing.JRadioButton rdbFelso1;
-    private javax.swing.JRadioButton rdbFelso2;
-    private javax.swing.JRadioButton rdbFelso3;
-    private javax.swing.JRadioButton rdbFelso4;
-    private javax.swing.JRadioButton rdbKozepso1;
-    private javax.swing.JRadioButton rdbKozepso2;
-    private javax.swing.JRadioButton rdbKozepso3;
+    private javax.swing.JRadioButton rbdTejfol;
+    private javax.swing.JRadioButton rdbAnanasz;
+    private javax.swing.JRadioButton rdbCm25;
+    private javax.swing.JRadioButton rdbCm32;
+    private javax.swing.JRadioButton rdbCm50;
+    private javax.swing.JRadioButton rdbHagyma;
+    private javax.swing.JRadioButton rdbHagyomanyos;
+    private javax.swing.JRadioButton rdbOlasz;
+    private javax.swing.JRadioButton rdbParadicsom;
+    private javax.swing.JRadioButton rdbSonka;
+    private javax.swing.JRadioButton rdbTeljes;
     // End of variables declaration//GEN-END:variables
 }
