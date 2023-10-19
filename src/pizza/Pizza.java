@@ -314,8 +314,7 @@ public class Pizza extends javax.swing.JFrame {
     }//GEN-LAST:event_lblElerhetosegMouseExited
 
     private void BtMegveszActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtMegveszActionPerformed
-        // JOptionPane.showMessageDialog(rootPane, "Tesztverzió!");
-        /* boolean PizzaValasztva = cmdDb.getSelectedIndex()> 0;
+        boolean PizzaValasztva = cmdDb.getSelectedIndex()> 0;
         String uzenet, cim = "Figyelem!";
         int ikonTipus;
         if(PizzaValasztva){
@@ -325,8 +324,7 @@ public class Pizza extends javax.swing.JFrame {
             uzenet = "Nincs pizza választva!";
             ikonTipus = JOptionPane.WARNING_MESSAGE;
         }
-        JOptionPane.showMessageDialog(null, uzenet, cim, ikonTipus); */
-        JOptionPane.showMessageDialog(null, "tesztverzió", "cím", 2);
+        JOptionPane.showMessageDialog(null, uzenet, cim, ikonTipus);
     }//GEN-LAST:event_BtMegveszActionPerformed
 
     private void cmdDbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdDbActionPerformed
